@@ -12,7 +12,7 @@ namespace ChessGame
           
         static void Main(string[] args)
         {
-            //
+            
         }
 
         private static void newGame()
