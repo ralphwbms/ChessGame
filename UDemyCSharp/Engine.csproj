@@ -7,8 +7,8 @@
     <ProjectGuid>{6104C9AE-E88E-4E44-8385-F892DE4113F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UDemyCSharp</RootNamespace>
-    <AssemblyName>UDemyCSharp</AssemblyName>
+    <RootNamespace>ChessGame</RootNamespace>
+    <AssemblyName>ChessGame</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Class Diagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

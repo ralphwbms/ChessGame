@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChessGame.ConsoleApplication">
+    <Position X="6" Y="1.25" Width="1.75" />
+    <AssociationLine Name="playerOnePieces" Type="ChessGame.ChessPiece" ManuallyRouted="true">
+      <Path>
+        <Point X="6.875" Y="2.546" />
+        <Point X="6.875" Y="5.518" />
+        <Point X="5.5" Y="5.518" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAQAAEAAAAAAAAAAAABAAABAA=</HashCode>
+      <FileName>ConsoleApplication.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="chessTable" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="playerOnePieces" />
+      <Field Name="playerTwoPieces" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ChessGame.ChessPiece">
+    <Position X="4" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ChessGame.ChessPiece.PieceName" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ChessGame.ChessPiece.PieceColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAEAACAAAAAgAAAAgA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessGame.ChessBoard">
+    <Position X="1.75" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ChessGame.ChessBoard.columns" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAIQAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChessGame.BoardSquare">
+    <Position X="0.75" Y="4.5" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="ChessGame.BoardSquare.SquareColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAoAAAQAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Piece" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
